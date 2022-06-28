@@ -21,3 +21,15 @@ Obs: 0 <= nota <= 10
 
 def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
+
+    nota_1 = float(input('Digite a primeira nota: '))
+    nota_2 = float(input('Digite a segunda nota: '))
+    media = (nota_1 + nota_2) / 2
+    print(f'A média do aluno foi: {media}')
+
+    if media >= 7.00 and media <= 9.99:
+        print('Aprovado')
+    elif media <= 6.99:
+        print('Reprovado')
+    elif media == 10:
+        print('Aprovado com distinção')
