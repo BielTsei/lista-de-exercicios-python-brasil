@@ -18,12 +18,12 @@ Faça um Programa que leia três números e mostre o maior deles.
 def calcular_maior_de_3_numeros(x, y, z):
     """Escreva aqui em baixo a sua solução"""
 
-    num_1 = float(input('Digite o 1° número: '))
-    num_2 = float(input('Digite o 2° número: '))
-    num_3 = float(input('Digite o 3° número: '))
-    if num_1 > num_2 and num_1 > num_3:
-        print(f'O maior número é: {num_1}')
-    elif num_2 > num_3 and num_2 > num_1:
-        print(f'O maior número é: {num_2}')
-    elif num_3 > num_2 and num_3 > num_1:
-        print(f'O maior número é: {num_3}')
+    #x = float(input('Digite o 1° número: '))
+    #y = float(input('Digite o 2° número: '))
+    #z = float(input('Digite o 3° número: '))
+    if x > y and x > z:
+        print(f'{x}')
+    elif y > z and y > x:
+        print(f'{y}')
+    elif z > y and z > x:
+        print(f'{z}')

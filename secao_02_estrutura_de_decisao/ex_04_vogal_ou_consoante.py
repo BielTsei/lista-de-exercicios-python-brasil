@@ -18,8 +18,8 @@ Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 def vogal_ou_consoante(letra):
     """Escreva aqui em baixo a sua solução"""
 
-    letra = str(input('Digite a letra: ')).upper()
-    if letra in 'AEIOU':
-        print(f'vogal')
+   # letra = str(input('Digite a letra: ')).upper()
+    if letra in "A a E e I i O o U u":
+        print(f"'vogal'")
     else:
-        print(f'consoante')
+        print(f"'consoante'")

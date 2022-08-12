@@ -20,10 +20,10 @@ def f_ou_m(sexo):
     """Escreva aqui em baixo a sua solução"""
 
 
-    sexo = str(input('Digite a Feminino ou Masculino (F para feminino e M para Masculino): ')).upper()
+    #sexo = str(input('Digite a Feminino ou Masculino (F para feminino e M para Masculino): ')).upper()
     if sexo == 'F':
-        print('F - Feminino')
+        print("'F - Feminino'")
     elif sexo == 'M':
-        print('M - Masculino')
+        print("'M - Masculino'")
     elif sexo != 'F' 'M':
-        print('Sexo Inválido')
+        print("'Sexo inválido'")
